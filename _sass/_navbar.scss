@@ -63,17 +63,17 @@
     color: var(--global-text-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: hsl(225, 69%, 61%);
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: hsl(225, 69%, 61%);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: hsl(225, 57%, 53%);
     }
   }
 
