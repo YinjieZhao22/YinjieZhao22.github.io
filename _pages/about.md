@@ -28,7 +28,7 @@ latest_posts:
 
 Welcome! I am Yinjie Zhao.
 
-I am a senior undergraduate student in Data Science at the University of Michigan, and am pursuing a dual degree in Mechanical Engineering at Shanghai Jiao Tong University.
+I am a senior student in Data Science at the University of Michigan, and am pursuing a dual degree in Mechanical Engineering at Shanghai Jiao Tong University.
 
 My research interests lie in building reliable and efficient systems for Machine Learning. Currently, I am a member of the [Order Lab](https://orderlab.io), advised by Prof. [Ryan Huang](https://web.eecs.umich.edu/~ryanph/).
 
