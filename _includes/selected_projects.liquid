@@ -1,19 +1,14 @@
+{% assign sorted_projects = site.projects | sort: "importance" %}
+{% for project in sorted_projects %}
 <div class="row" style="margin-top: 2rem;">
-  <div class="col-sm-10">
-    <div class="title">Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks</div>
-    <div class="author">Yuxuan Jiang, Ziming Zhou, Boyu Xu, Beijie Liu, Runhui Xu, Peng Huang</div>
-    <div class="periodical">
-      <em>OSDI 2025</em> &nbsp;|&nbsp;
-      <a href="https://www.usenix.org/conference/osdi25/presentation/jiang">Paper</a> &nbsp;|&nbsp;
-      <a href="https://github.com/OrderLab/TrainCheck">Code</a>
-    </div>
-    <div class="contributions mt-1">
-      <strong>My contributions:</strong>
-      <ul>
-        <li>Designed and implemented the runtime checker with a watchdog to monitor trace file changes.</li>
-        <li>Designed a new proxy to achieve torch.compile / distributed training compatibility and reduce runtime overhead.</li>
-        <li>Revised the invariant inference and checking pipeline.</li>
-      </ul>
+  <div class="col-sm-10" style="line-height: 1.5;">
+    <style>
+      .selected-project p { margin-bottom: 0.1rem; }
+      .selected-project ul { margin-top: 0.25rem; }
+    </style>
+    <div class="selected-project">
+      {{ project.content }}
     </div>
   </div>
 </div>
+{% endfor %}
