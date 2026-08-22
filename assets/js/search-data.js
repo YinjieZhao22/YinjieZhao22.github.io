@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-education",
+          title: "Education",
+          description: "Academic background and training.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Education/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -398,6 +405,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "education-university-of-illinois-urbana-champaign",
+          title: 'University of Illinois Urbana-Champaign',
+          description: "",
+          section: "Education",handler: () => {
+              window.location.href = "/education/1_uiuc/";
+            },},{id: "education-university-of-michigan",
+          title: 'University of Michigan',
+          description: "",
+          section: "Education",handler: () => {
+              window.location.href = "/education/2_umich/";
+            },},{id: "education-shanghai-jiao-tong-university",
+          title: 'Shanghai Jiao Tong University',
+          description: "",
+          section: "Education",handler: () => {
+              window.location.href = "/education/3_sjtu/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
