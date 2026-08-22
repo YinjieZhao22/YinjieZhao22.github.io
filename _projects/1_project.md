@@ -10,10 +10,16 @@ category: work
 
 Based on OSDI 2025 paper by Yuxuan Jiang, Ziming Zhou, Boyu Xu, Beijie Liu, Runhui Xu, Peng Huang
 
-[Paper](https://www.usenix.org/conference/osdi25/presentation/jiang) &nbsp; [Code](https://github.com/OrderLab/TrainCheck)
+<div class="project-links">
+  <a href="https://www.usenix.org/conference/osdi25/presentation/jiang" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Paper</a>
+  <a href="https://github.com/OrderLab/TrainCheck" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Code</a>
+</div>
 
-**My contributions after publication:**
+<details class="project-details" markdown="1">
+<summary>My contributions after publication</summary>
 
 - Designed and implemented the runtime checker with a watchdog to monitor trace file changes.
 - Designed a new proxy to achieve torch.compile / distributed training compatibility and reduce runtime overhead.
 - Revised the invariant inference and checking pipeline.
+
+</details>

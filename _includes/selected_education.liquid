@@ -1,0 +1,18 @@
+{% assign sorted_education = site.education | sort: "importance" %}
+<div class="education-timeline">
+  {% for edu in sorted_education %}
+    <div class="education-entry">
+      <div class="education-years">{{ edu.start }} &ndash; {{ edu.end }}</div>
+      <div class="education-details">
+        <h3 class="education-institution">{{ edu.title }}</h3>
+        {% if edu.institution %}
+          <p class="education-specific-institution">{{ edu.institution }}</p>
+        {% endif %}
+        <p class="education-degree">{{ edu.degree }}</p>
+        {% if edu.meta %}
+          <p class="education-meta">{{ edu.meta | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

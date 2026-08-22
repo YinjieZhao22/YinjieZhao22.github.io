@@ -37,7 +37,7 @@ layout: default
         {% endif %}
         {% if page.social %}
           <div class="social">
-            <div class="contact-icons" style="font-size: 2rem;">{% social_links %}</div>
+            <div class="contact-icons" style="font-size: 1.8rem;">{% social_links %}</div>
           </div>
         {% endif %}
       </div>
@@ -63,20 +63,21 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit; font-weight: bold;">Selected Publications</a>
-      </h2>
+      <h2 id="publications">Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Selected projects -->
     {% if page.selected_projects %}
-      <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit; font-weight: bold;">Selected Projects</a>
-      </h2>
+      <h2 id="projects">Projects</h2>
       {% include selected_projects.liquid %}
     {% endif %}
 
+    <!-- Education -->
+    {% if page.education %}
+      <h2 id="education">Education</h2>
+      {% include selected_education.liquid %}
+    {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

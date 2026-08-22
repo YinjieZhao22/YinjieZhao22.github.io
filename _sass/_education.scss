@@ -1,0 +1,49 @@
+/*******************************************************************************
+ * Education timeline
+ ******************************************************************************/
+
+.education-timeline {
+  margin-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  .education-entry {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+
+  .education-years {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: var(--global-theme-color);
+    white-space: nowrap;
+  }
+
+  .education-institution {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+  }
+
+  .education-specific-institution {
+    margin-bottom: 0.15rem;
+  }
+
+  .education-degree {
+    margin-bottom: 0.15rem;
+  }
+
+  .education-meta {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
+  }
+}

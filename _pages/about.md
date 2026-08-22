@@ -13,6 +13,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_projects: true # includes selected_projects.liquid
+education: true # includes selected_education.liquid
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -28,7 +29,7 @@ latest_posts:
 
 Welcome! I am Yinjie Zhao.
 
-I am a senior student in Data Science at the University of Michigan, and am pursuing a dual degree in Mechanical Engineering at Shanghai Jiao Tong University.
+I am a Computer Science PhD student at University of Illinois Urbana-Champaign (UIUC), advised by Prof. [Francis Y. Yan](https://fyy.cs.illinois.edu). I completed my undergraduate studies at Shanghai Jiao Tong University (SJTU) and University of Michigan (UMich).
 
-My research interests lie in building reliable and efficient systems for Machine Learning. Currently, I am a member of the [Order Lab](https://orderlab.io), advised by Prof. [Ryan Huang](https://web.eecs.umich.edu/~ryanph/).
+My research interests lie in building efficient and reliable systems for machine learning, with a current focus on systems support for AI agent workloads.
 

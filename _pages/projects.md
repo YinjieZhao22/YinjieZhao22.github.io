@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
+nav_anchor: /#projects
 ---
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
